@@ -1,4 +1,4 @@
-import axios from "axios";
+// import axios from "axios";
 
 /*
 * This file is a couple of handleTokenURI handlers the developer can use
@@ -9,6 +9,7 @@ import axios from "axios";
 // function handleDataURI(jsonLink)
 // handles the API call to a Data URI Scheme (JSON) page and returns the data
 // Usage: This function is to be passed to the constructor as the handleTokenURI attribute
+/*
 function handleDataURI (dataURI:string): Promise<any> {
   // Check if the URI is a valid data URI
   if (!dataURI.startsWith ('data:application/json;base64,')) {
@@ -30,10 +31,12 @@ function handleDataURI (dataURI:string): Promise<any> {
     throw new Error ('Invalid JSON format');
   }
 }
+*/
 
 // function handleDataURI(jsonLink)
 // handles the API call to an ipfs blanknetwork page and returns the data
 // Usage: This function is to be passed to the constructor as the handleTokenURI attribute
+/*
 function handleBlanketNetwork (dataLink:string): Promise<any> {
   // Check if the URI is a valid data URI
   if (!dataLink.startsWith ('https://ipfs.blanknetwork.com/')) {
@@ -42,11 +45,13 @@ function handleBlanketNetwork (dataLink:string): Promise<any> {
 
   return axios.get(dataLink);
 }
+*/
 
 
   // ipfsHandler(ipfsLink)
   // Handles the API call to an IPFS hash and returns the data
   // Usage: This function is to be used by getNFTMetaData and getNFTImage
+/*
   function ipfsHandler(ipfsLink: string): Promise<any> {
     const ipfsPrefix = "ipfs://";
     const pinataGateway = "https://ipfs.io/ipfs/"; 
@@ -59,3 +64,4 @@ function handleBlanketNetwork (dataLink:string): Promise<any> {
   }
     return axios.get(ipfsLink);
 }
+*/
