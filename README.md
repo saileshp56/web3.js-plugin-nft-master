@@ -1,5 +1,7 @@
-# web3.js-plugin-nft-master
+# Web3.js NFT Master Plugin
 ![Node Version](https://img.shields.io/badge/node-20.x-green)
+[![NPM Package][npm-image]][npm-url]
+
 
 NFT Master is a web3.js plugin designed to simplify and enhance the interaction with ERC-721 NFTs. It is aimed primarily at developers, providing a robust suite of tools for querying NFT collections and NFT statistics. NFT Master facilitates seamless interaction between DApps and NFT collections.
 
@@ -89,3 +91,7 @@ web3Context.registerPlugin(new NFTPlugin(web3, nftPluginOptions));
 ```
 ## Run the Tests
 Enter your preferred blockchain provider in index.test.ts otherwise most tests won't be able to run
+
+
+[npm-image]: https://img.shields.io/npm/v/web3-core-method.svg
+[npm-url]: https://www.npmjs.com/package/@saileshp56/web3.js-plugin-nft-master
