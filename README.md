@@ -17,6 +17,9 @@ For contractAddress, use the contract address of the NFT collection. For example
 ```
 For handleTokenURI, use a function that returns a GET request to the file storage of the NFT. Leave it empty to handle IPFS hashes. See metadataHandlers.ts for examples of this.
 ```typescript
+import { NFTPlugin } from "@saileshp56/web3.js-plugin-nft-master";
+import { Web3, core } from "web3";
+
 // Initialize Web3 with a provider URL
 let web3: Web3 = new Web3('https://eth-mainnet.alchemyapi.io/v2/<your_api_key>');
 
